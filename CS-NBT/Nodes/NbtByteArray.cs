@@ -31,6 +31,7 @@ namespace nbtlib.Nodes
         {
             base.Load(reader, parent);
             dataLength = reader.ReadInt32();
+            dataLocation = reader.BaseStream.Position;
             this.reader = reader;
         }
 

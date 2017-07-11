@@ -8,7 +8,7 @@ namespace nbtlib.Nodes
     public class NbtContainerNode : NbtNode, INbtContainerNode
     {
         public int Count => Children.Count;
-        protected List<INbtNode> Children { get; set; } = new List<INbtNode>();
+        protected List<INbtNode> Children { get; } = new List<INbtNode>();
 
         public INbtNode Get(string name)
         {
