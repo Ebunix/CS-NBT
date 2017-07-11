@@ -7,8 +7,8 @@
     <ProjectGuid>{E81A05C3-D146-468E-A054-599AB5A0E579}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>nbtlib</RootNamespace>
-    <AssemblyName>nbtlib</AssemblyName>
+    <RootNamespace>CsNbt</RootNamespace>
+    <AssemblyName>CsNbt</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
