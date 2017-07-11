@@ -7,7 +7,7 @@ namespace nbtlib.Nodes
 {
     public class NbtNode : INbtNode
     {
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
         public INbtContainerNode Parent { get; set; }
         public virtual NbtType Type => NbtType.End;
 
