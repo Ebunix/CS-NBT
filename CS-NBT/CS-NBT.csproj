@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E81A05C3-D146-468E-A054-599AB5A0E579}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>nbtlib</RootNamespace>
     <AssemblyName>nbtlib</AssemblyName>
@@ -39,7 +39,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="NodeFactory.cs" />
     <Compile Include="Nodes\INbtContainerNode.cs" />
     <Compile Include="Nodes\INbtNode.cs" />
